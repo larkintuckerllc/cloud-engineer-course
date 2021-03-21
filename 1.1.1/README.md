@@ -1,4 +1,4 @@
-# Creating projects
+# Creating Projects
 
 ## Resources
 
@@ -6,9 +6,9 @@
 
 [Google Cloud overview](https://cloud.google.com/docs/overview)
 
-[Cloud Locations](https://cloud.google.com/about/locations)
-
 [Google Data Center Search](https://www.google.com/search?q=google+data+center&tbm=isch&ved=2ahUKEwiexf7EgsLvAhVhIn0KHVSRBq0Q2-cCegQIABAA&oq=google+data+center&gs_lcp=CgNpbWcQA1AAWABgopgcaABwAHgAgAEAiAEAkgEAmAEAqgELZ3dzLXdpei1pbWc&sclient=img&ei=BZFXYN6uNOHE9APUoproCg&bih=868&biw=1680)
+
+[Cloud Locations](https://cloud.google.com/about/locations)
 
 > Some resources can be accessed by any other resource, across regions and zones. These global resources include preconfigured disk images, disk snapshots, and networks. Some resources can be accessed only by resources that are located in the same region. These regional resources include static external IP addresses. Other resources can be accessed only by resources that are located in the same zone. These zonal resources include VM instances, their types, and disks.
 
