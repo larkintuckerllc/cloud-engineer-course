@@ -13,7 +13,7 @@ TODO
 ### 1.1 Setting up cloud projects and accounts. Activities include:
 
 - [Creating projects](1.1.1)
-- Assigning users to predefined IAM roles within a project
+- [Assigning users to predefined IAM roles within a project](1.1.2)
 - Managing users in Cloud Identity (manually and automated)
 - Enabling APIs within projects
 - Provisioning one or more Stackdriver workspaces
