@@ -1,5 +1,7 @@
 # Creating Projects
 
+[![Video](video.png)](https://youtu.be/4N0cJM_7kpE)
+
 ## Resources
 
 > Google Cloud consists of a set of physical assets, such as computers and hard disk drives, and virtual resources, such as virtual machines (VMs), that are contained in Google's data centers around the globe. Each data center location is in a region. Regions are available in Asia, Australia, Europe, North America, and South America. Each region is a collection of zones, which are isolated from each other within the region. Each zone is identified by a name that combines a letter identifier with the name of the region. For example, zone a in the East Asia region is named asia-east1-a.
