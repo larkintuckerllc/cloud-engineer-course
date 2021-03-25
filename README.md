@@ -14,7 +14,7 @@ TODO
 
 - [Creating projects](1.1.1)
 - [Assigning users to predefined IAM roles within a project](1.1.2)
-- Managing users in Cloud Identity (manually and automated)
+- Managing users in Cloud Identity (manually and automated) **advanced topic for later**
 - Enabling APIs within projects
 - Provisioning one or more Stackdriver workspaces
 
