@@ -20,8 +20,8 @@ TODO
 
 ### 1.2 Managing billing configuration. Activities include:
 
-- Creating one or more billing accounts
-- Linking projects to a billing account
+- [Creating one or more billing accounts](1.2.1)
+- Linking projects to a billing account **(same as 1.2.1)**
 - Establishing billing budgets and alerts
 - Setting up billing exports to estimate daily/monthly charges
 
