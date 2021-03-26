@@ -16,7 +16,7 @@ TODO
 - [Assigning users to predefined IAM roles within a project](1.1.2)
 - Managing users in Cloud Identity (manually and automated) **(advanced topic for later)**
 - [Enabling APIs within projects](1.1.4)
-- Provisioning one or more Stackdriver workspaces
+- [Provisioning one or more Stackdriver workspaces](1.1.5)
 
 ### 1.2 Managing billing configuration. Activities include:
 
