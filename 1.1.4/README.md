@@ -1,6 +1,6 @@
 # Enabling APIs within projects
 
-[[Video](video.png)](https://youtu.be/S5Z9t2pygd8)
+[![Video](video.png)](https://youtu.be/S5Z9t2pygd8)
 
 > Google Cloud APIs are programmatic interfaces to Google Cloud Platform services. They are a key part of Google Cloud Platform, allowing you to easily add the power of everything from computing to networking to storage to machine-learning-based data analysis to your applications.
 
