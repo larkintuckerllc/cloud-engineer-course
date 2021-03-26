@@ -1,5 +1,7 @@
 # Creating one or more billing accounts
 
+[![Video](video.png)](https://youtu.be/8nKn8lb3uZ4)
+
 > A Cloud Billing account is set up in Google Cloud and is used to define who pays for a given set of Google Cloud resources and Google Maps Platform APIs. Access control to a Cloud Billing account is established by IAM roles. A Cloud Billing account is connected to a Google payments profile. Your Google payments profile includes a payment instrument to which costs are charged.
 >
 > Is a cloud-level resource managed in the Cloud Console.
