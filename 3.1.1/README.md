@@ -1,5 +1,7 @@
 # Launching a compute instance using Cloud Console and Cloud SDK (gcloud) (e.g., assign disks, availability policy, SSH keys)
 
+[![Video](video.png)](https://youtu.be/wfbN6aQ8nU8)
+
 > Secure and customizable compute service that lets you create and run virtual machines on Google’s infrastructure.
 
 [Compute Engine](https://cloud.google.com/compute#section-1)
