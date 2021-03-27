@@ -58,6 +58,8 @@ gsutil ls
 
 ## Google Cloud Client Libraries
 
+https://github.com/googleapis/google-cloud-python
+
 ```
 pip install -r requirements.txt
 ```
