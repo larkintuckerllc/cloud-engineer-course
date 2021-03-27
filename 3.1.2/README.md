@@ -2,6 +2,8 @@
 
 ## Instance Template
 
+[![Video](video.png)](https://youtu.be/8u1cB94Drsw)
+
 > Instance templates define the machine type, boot disk image or container image, labels, and other instance properties. You can then use an instance template to create a MIG or to create individual VMs. Instance templates are a convenient way to save a VM instance's configuration so you can use it later to create VMs or groups of VMs.
 
 [Instance templates](https://cloud.google.com/compute/docs/instance-templates)
