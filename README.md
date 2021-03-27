@@ -34,7 +34,7 @@ TODO
 ### 3.1 Deploying and implementing Compute Engine resources. Tasks include:
 
 - [Launching a compute instance using Cloud Console and Cloud SDK (gcloud) (e.g., assign disks, availability policy, SSH keys)](3.1.1)
-- Creating an autoscaled managed instance group using an instance template
+- [Creating an autoscaled managed instance group using an instance template](3.1.2)
 - Generating/uploading a custom SSH key for instances
 - Configuring a VM for Stackdriver monitoring and logging
 - Assessing compute quotas and requesting increases
