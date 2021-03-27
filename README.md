@@ -25,4 +25,4 @@ TODO
 - [Establishing billing budgets and alerts](1.2.3)
 - Setting up billing exports to estimate daily/monthly charges **(same as 1.2.3)**
 
-### 1.3 Installing and configuring the command line interface (CLI), specifically the Cloud SDK (e.g., setting the default project).
+### [1.3 Installing and configuring the command line interface (CLI), specifically the Cloud SDK (e.g., setting the default project).](1.3)
