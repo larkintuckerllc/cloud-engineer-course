@@ -1,5 +1,7 @@
 # Installing and configuring the command line interface (CLI), specifically the Cloud SDK (e.g., setting the default project)
 
+[![Video](video.png)](https://youtu.be/J1e0e8l4yzg)
+
 > Tools and libraries for interacting with Google Cloud products and services.
 > 
 > The gcloud CLI manages authentication, local configuration, developer workflow, interactions with Google Cloud APIs. With the gcloud command-line tool, it’s easy to perform many common cloud tasks, like creating a Compute Engine VM instance, managing a Google Kubernetes Engine cluster, and deploying an App Engine application, either from the command line or in scripts and other automations.
