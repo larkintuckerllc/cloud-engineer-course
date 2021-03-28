@@ -35,7 +35,7 @@ TODO
 
 - [Launching a compute instance using Cloud Console and Cloud SDK (gcloud) (e.g., assign disks, availability policy, SSH keys)](3.1.1)
 - [Creating an autoscaled managed instance group using an instance template](3.1.2)
-- Generating/uploading a custom SSH key for instances
+- [Generating/uploading a custom SSH key for instances](3.1.3)
 - Configuring a VM for Stackdriver monitoring and logging
 - Assessing compute quotas and requesting increases
 - Installing the Stackdriver Agent for monitoring and logging **(same as 3.1.4)**
