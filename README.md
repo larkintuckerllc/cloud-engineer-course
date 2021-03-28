@@ -37,6 +37,8 @@ TODO
 - [Creating an autoscaled managed instance group using an instance template](3.1.2)
 - [Generating/uploading a custom SSH key for instances](3.1.3)
 - Configuring a VM for Stackdriver monitoring and logging
+  - [Part 1](3.1.4.1)
+  - Part 2
 - Assessing compute quotas and requesting increases
 - Installing the Stackdriver Agent for monitoring and logging **(same as 3.1.4)**
 
@@ -73,3 +75,8 @@ TODO
 
 - Developing Deployment Manager templates
 - Launching a Deployment Manager template
+
+### Addendum
+
+- TODO: Images
+- TODO: Deployment Model
