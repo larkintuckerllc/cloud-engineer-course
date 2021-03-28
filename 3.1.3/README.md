@@ -1,5 +1,7 @@
 # Generating/uploading a custom SSH key for instances
 
+[![Video](video.png)](https://youtu.be/aGCSZmGctYQ)
+
 > Every instance stores its metadata on a metadata server. You can query this metadata server programmatically, from within the instance and from the Compute Engine API. You can query for information about the instance, such as the instance's host name, instance ID, startup and shutdown scripts, custom metadata, and service account information. Your instance automatically has access to the metadata server API without any additional authorization.
 
 [Storing and retrieving instance metadata](https://cloud.google.com/compute/docs/storing-retrieving-metadata)
