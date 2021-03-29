@@ -1,5 +1,7 @@
 # Configuring a VM for Stackdriver monitoring and logging (Part 1)
 
+[![Video](video.png)](https://youtu.be/1ju_YWHBGao)
+
 ## Cloud Monitoring Concepts
 
 > Cloud Monitoring collects measurements to help you understand how your applications and system services are performing. A collection of these measurements is generically called a metric. The applications and system services being monitored are called monitored resources.
