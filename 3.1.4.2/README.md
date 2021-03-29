@@ -1,4 +1,4 @@
-# Configuring a VM for Stackdriver monitoring and logging (Part 1)
+# Configuring a VM for Stackdriver monitoring and logging (Part 2)
 
 ## Monitoring Agent
 
