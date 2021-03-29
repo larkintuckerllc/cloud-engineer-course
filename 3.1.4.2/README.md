@@ -1,5 +1,7 @@
 # Configuring a VM for Stackdriver monitoring and logging (Part 2)
 
+[![Video](video.png)](https://youtu.be/MKKBP06sJdI)
+
 ## Monitoring Agent
 
 > Using the Monitoring agent is optional but recommended. Monitoring can access some instance metrics without the Monitoring agent, including CPU utilization, some disk traffic metrics, network traffic, and uptime information. Monitoring uses the Monitoring agent to access additional system resources and application services in virtual machine (VM) instances. If you want these additional capabilities, you should install the Monitoring agent.
