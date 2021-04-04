@@ -39,7 +39,7 @@ TODO
 - Configuring a VM for Stackdriver monitoring and logging
   - [Part 1](3.1.4.1)
   - [Part 2](3.1.4.2)
-- Assessing compute quotas and requesting increases
+- Assessing compute quotas and requesting increases **(covered in 1.3)**
 - Installing the Stackdriver Agent for monitoring and logging **(same as 3.1.4)**
 
 ### 3.2 Deploying and implementing Google Kubernetes Engine resources. Tasks include:
