@@ -67,3 +67,11 @@ gcloud components install kubectl
 ```
 kubectl version
 ```
+
+```
+gcloud container clusters get-credentials cluster-1 --zone us-central1-a
+```
+
+```
+kubectl get nodes
+```
