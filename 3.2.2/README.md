@@ -1,5 +1,7 @@
 # Deploying a container application to Google Kubernetes Engine using pod
 
+[![Video](video.png)](https://youtu.be/a_bysLlrrQY)
+
 ## Overview
 
 > Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
