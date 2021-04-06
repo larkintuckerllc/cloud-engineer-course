@@ -27,9 +27,5 @@ kubectl describe node XXX
 ```
 
 ```
-kubect exec hello -it -- /bin/bash
-```
-
-```
 kubectl delete pod hello
 ```
