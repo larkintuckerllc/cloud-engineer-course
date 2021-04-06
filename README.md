@@ -45,7 +45,7 @@ TODO
 ### 3.2 Deploying and implementing Google Kubernetes Engine resources. Tasks include:
 
 - [Deploying a Google Kubernetes Engine cluster](3.2.1)
-- Deploying a container application to Google Kubernetes Engine using pods
+- [Deploying a container application to Google Kubernetes Engine using pods](3.2.2)
 - Configuring Google Kubernetes Engine application monitoring and logging
 
 ### 3.3 Deploying and implementing App Engine, Cloud Run, and Cloud Functions resources. Tasks include, where applicable:
