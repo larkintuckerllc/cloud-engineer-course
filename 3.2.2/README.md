@@ -9,18 +9,6 @@
 [Pods](https://kubernetes.io/docs/concepts/workloads/pods/)
 
 ```
-apiVersion: v1
-kind: Pod
-metadata:
-  name: hello
-spec:
-  containers:
-  - name: ubuntu
-    image: ubuntu:18.04
-    command: ['tail', '-f', '/dev/null']
-```
-
-```
 kubectl apply -f hello-pod.yaml
 ```
 
@@ -34,6 +22,10 @@ kubectl describe pod hello
 
 ```
 kubectl describe node XXX
+```
+
+```
+kubect exec hello -it -- /bin/bash
 ```
 
 ```

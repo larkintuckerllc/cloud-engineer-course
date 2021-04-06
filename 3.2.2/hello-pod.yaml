@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello
+spec:
+  containers:
+  - name: ubuntu
+    image: ubuntu:18.04
+    command: ['/usr/bin/tail', '-f', '/dev/null']
+
