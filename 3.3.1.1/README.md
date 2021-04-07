@@ -14,6 +14,10 @@
 
 [Choosing an App Engine environment](https://cloud.google.com/appengine/docs/the-appengine-environments)
 
+> Build, test, and deploy on our serverless CI/CD platform.
+
+[Cloud Build](https://cloud.google.com/build)
+
 ## Pricing
 
 > Standard: $0.05 per hour for B1 (600 MHz)
@@ -34,6 +38,27 @@
 > Applications run in a secure, sandboxed environment, allowing the App Engine standard environment to distribute requests across multiple servers, and scaling servers to meet traffic demands. Your application runs within its own secure, reliable environment that is independent of the hardware, operating system, or physical location of the server.
 
 [The App Engine Standard Environment](https://cloud.google.com/appengine/docs/standard)
+
+> An App Engine app is made up of a single application resource that consists of one or more services. Each service can be configured to use different runtimes and to operate with different performance settings. Within each service, you deploy versions of that service. Each version then runs within one or more instances, depending on how much traffic you configured it to handle.
+
+[An Overview of App Engine](https://cloud.google.com/appengine/docs/standard/nodejs/an-overview-of-app-engine)
+
+https://cloud.google.com/appengine/docs/standard/nodejs/an-overview-of-app-engine
+
+
+> Every App Engine application includes a default service. You must deploy the initial version of your app to the default service before you can create and deploy additional services to your app.
+
+[Structuring Web Services in App Engine](https://cloud.google.com/appengine/docs/standard/nodejs/configuration-files)
+
+> You can use dependencies by listing them in your package.json file. See Specifying Dependencies for more information.
+>
+> App Engine starts your application by running npm start.
+>
+Your server must listen to the port specified by the process.env.PORT environment variable.
+>
+> You need an app.yaml file to deploy your service to App Engine.
+
+https://expressjs.com/en/starter/hello-world.html
 
 TODO
 
