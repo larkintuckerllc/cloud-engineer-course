@@ -1,4 +1,4 @@
-# Deploying an application, updating scaling configuration, versions, and traffic splitting (App Engine)
+# Deploying an application, updating scaling configuration, versions, and traffic splitting (App Engine Standard Environment Basics)
 
 > Build highly scalable applications on a fully managed serverless platform.
 >
@@ -45,7 +45,6 @@
 
 https://cloud.google.com/appengine/docs/standard/nodejs/an-overview-of-app-engine
 
-
 > Every App Engine application includes a default service. You must deploy the initial version of your app to the default service before you can create and deploy additional services to your app.
 
 [Structuring Web Services in App Engine](https://cloud.google.com/appengine/docs/standard/nodejs/configuration-files)
@@ -59,13 +58,3 @@ Your server must listen to the port specified by the process.env.PORT environmen
 > You need an app.yaml file to deploy your service to App Engine.
 
 https://expressjs.com/en/starter/hello-world.html
-
-TODO
-
-## Flexible Environment
-
-> App Engine allows developers to focus on what they do best: writing code. Based on Google Compute Engine, the App Engine flexible environment automatically scales your app up and down while also balancing the load.
-
-[App Engine Flexible Environment](https://cloud.google.com/appengine/docs/flexible)
-
-TODO
