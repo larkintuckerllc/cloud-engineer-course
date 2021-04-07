@@ -53,8 +53,40 @@ https://cloud.google.com/appengine/docs/standard/nodejs/an-overview-of-app-engin
 >
 > App Engine starts your application by running npm start.
 >
-Your server must listen to the port specified by the process.env.PORT environment variable.
+> Your server must listen to the port specified by the process.env.PORT environment variable.
 >
 > You need an app.yaml file to deploy your service to App Engine.
 
 https://expressjs.com/en/starter/hello-world.html
+
+```
+gcloud app deploy
+```
+
+```
+gcloud app browse
+```
+
+> https://PROJECT_ID.REGION_ID.r.appspot.com
+
+[Structuring Web Services in App Engine](https://cloud.google.com/appengine/docs/standard/nodejs/configuration-files)
+
+```
+gcloud app deploy
+```
+
+```
+gcloud app browse -s two
+```
+
+> The URLs for specific services and versions are in the following form:
+>
+> VERSION-dot-SERVICE-dot-PROJECT_ID.REGION_ID.r.appspot.com
+>
+> You can omit VERSION-dot- if you don't need to target a specific version.
+
+[How Requests are Routed](https://cloud.google.com/appengine/docs/standard/nodejs/how-requests-are-routed)
+
+```
+gcloud app deploy
+```
