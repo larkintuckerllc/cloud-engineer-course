@@ -1,4 +1,4 @@
-# Deploying an application, updating scaling configuration, versions, and traffic splitting (App Engine Standard Environment Basics)
+# Deploying an application, updating scaling configuration, versions, and traffic splitting (App Engine - Standard Environment - Basics)
 
 > Build highly scalable applications on a fully managed serverless platform.
 >
