@@ -1,2 +1,46 @@
 # Deploying an application, updating scaling configuration, versions, and traffic splitting (App Engine)
 
+> Build highly scalable applications on a fully managed serverless platform.
+>
+> Build your application in Node.js, Java, Ruby, C#, Go, Python, or PHP—or bring your own language runtime.
+>
+> Custom runtimes allow you to bring any library and framework to App Engine by supplying a Docker container.
+>
+> A fully managed environment lets you focus on code while App Engine manages infrastructure concerns.
+
+[App Engine](https://cloud.google.com/appengine)
+
+> You can run your applications in App Engine using the flexible environment or standard environment. You can also choose to simultaneously use both environments for your application and allow your services to take advantage of each environment's individual benefits.
+
+[Choosing an App Engine environment](https://cloud.google.com/appengine/docs/the-appengine-environments)
+
+## Pricing
+
+> Standard: $0.05 per hour for B1 (600 MHz)
+> Flexible: $0.0526 per core hour
+
+[App Engine Pricing](https://cloud.google.com/appengine/pricing)
+
+> GCE E2 Machine Type: $0.021811 / vCPU hour
+
+[VM instances pricing](https://cloud.google.com/compute/vm-instance-pricing)
+
+## Standard Environment
+
+> The App Engine standard environment is based on container instances running on Google's infrastructure. Containers are preconfigured with one of several available runtimes.
+>
+> The App Engine standard environment makes it easy to build and deploy an application that runs reliably even under heavy load and with large amounts of data.
+>
+> Applications run in a secure, sandboxed environment, allowing the App Engine standard environment to distribute requests across multiple servers, and scaling servers to meet traffic demands. Your application runs within its own secure, reliable environment that is independent of the hardware, operating system, or physical location of the server.
+
+[The App Engine Standard Environment](https://cloud.google.com/appengine/docs/standard)
+
+TODO
+
+## Flexible Environment
+
+> App Engine allows developers to focus on what they do best: writing code. Based on Google Compute Engine, the App Engine flexible environment automatically scales your app up and down while also balancing the load.
+
+[App Engine Flexible Environment](https://cloud.google.com/appengine/docs/flexible)
+
+TODO
