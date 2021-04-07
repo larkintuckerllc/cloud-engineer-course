@@ -1,5 +1,7 @@
 # Deploying an application, updating scaling configuration, versions, and traffic splitting (App Engine - Standard Environment - Basics)
 
+[![Video](video.png)](https://youtu.be/M2n5kSsTzPw)
+
 > Build highly scalable applications on a fully managed serverless platform.
 >
 > Build your application in Node.js, Java, Ruby, C#, Go, Python, or PHP—or bring your own language runtime.
