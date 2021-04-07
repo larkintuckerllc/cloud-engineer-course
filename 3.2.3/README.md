@@ -12,3 +12,15 @@
 ```
 kubectl apply -f logging-pod.yaml
 ```
+
+```
+kubectl logs logging
+```
+
+```
+resource.type="k8s_container"
+resource.labels.cluster_name="cluster-1"
+resource.labels.namespace_name="default"
+resource.labels.pod_name="logging"
+```
+
