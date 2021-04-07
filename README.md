@@ -46,11 +46,14 @@ TODO
 
 - [Deploying a Google Kubernetes Engine cluster](3.2.1)
 - [Deploying a container application to Google Kubernetes Engine using pods](3.2.2)
-- Configuring Google Kubernetes Engine application monitoring and logging
+- [Configuring Google Kubernetes Engine application monitoring and logging](3.2.3)
 
 ### 3.3 Deploying and implementing App Engine, Cloud Run, and Cloud Functions resources. Tasks include, where applicable:
 
 - Deploying an application, updating scaling configuration, versions, and traffic splitting
+  - [Part 1](3.3.1.1)
+  - [Part 2](3.3.1.2)
+  - [Part 3](3.3.1.3)
 - Deploying an application that receives Google Cloud events (e.g., Cloud Pub/Sub events, Cloud Storage object change notification events)
 
 ### 3.4 Deploying and implementing data solutions. Tasks include:
