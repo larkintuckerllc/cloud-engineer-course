@@ -1,0 +1,4 @@
+runtime: nodejs14
+service: five
+inbound_services:
+- warmup

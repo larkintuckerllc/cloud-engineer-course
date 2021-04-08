@@ -81,7 +81,13 @@ https://cloud.google.com/appengine/docs/standard/nodejs/config/appref#scaling_el
 
 [Splitting Traffic](https://cloud.google.com/appengine/docs/standard/nodejs/splitting-traffic)
 
-TODO
+```
+gcloud app deploy
+```
+
+```
+gcloud app deploy
+```
 
 > When you have specified two or more versions for splitting, you must choose whether to split traffic by using either an IP address or HTTP cookie. It's easier to set up an IP address split, but a cookie split is more precise. For more information, see IP address splitting and Cookie splitting.
 
