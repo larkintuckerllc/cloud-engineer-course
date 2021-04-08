@@ -2,5 +2,5 @@ runtime: nodejs14
 service: three
 instance_class: B1
 manual_scaling:
-  instance: 5
+  instances: 5
 
