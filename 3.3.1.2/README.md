@@ -1,5 +1,7 @@
 # Deploying an application, updating scaling configuration, versions, and traffic splitting (App Engine - Standard Environment - More)
 
+[![Video](video.png)](https://youtu.be/HB_lPkitRoY)
+
 ## Viewing Logs
 
 > Viewing application logs is one of the simplest ways to monitor the performance of your web services.

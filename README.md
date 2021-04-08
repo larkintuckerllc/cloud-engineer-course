@@ -51,7 +51,8 @@ TODO
 ### 3.3 Deploying and implementing App Engine, Cloud Run, and Cloud Functions resources. Tasks include, where applicable:
 
 - Deploying an application, updating scaling configuration, versions, and traffic splitting
-  - [Part 1 - App Engine - Standard Environment - Basics](3.3.1.1)
+  - [App Engine - Standard Environment - Basics](3.3.1.1)
+  - [App Engine - Standard Environment - More](3.3.1.2)
 - Deploying an application that receives Google Cloud events (e.g., Cloud Pub/Sub events, Cloud Storage object change notification events)
 
 ### 3.4 Deploying and implementing data solutions. Tasks include:
