@@ -1,6 +1,6 @@
 # Deploying an application, updating scaling configuration, versions, and traffic splitting (App Engine - Flexible Environment)
 
-[![Video]{video.png)(https://youtu.be/BAWYP-9kVIQ)
+[![Video](video.png)](https://youtu.be/BAWYP-9kVIQ)
 
 > Application instances run within Docker containers on Compute Engine virtual machines (VM).
 >
