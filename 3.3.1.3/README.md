@@ -58,4 +58,7 @@ gcloud app deploy
 
 ## Custom Runtime
 
-TODO
+> Copy the nginx configuration file. This sets up the behavior of nginx, most importantly, it ensure nginx listens on port 8080. Google App Engine expects the runtime to respond to HTTP requests at port 8080.
+
+[Quickstart for Custom Runtimes in the App Engine Flexible Environment](https://cloud.google.com/appengine/docs/flexible/custom-runtimes/quickstart)
+
