@@ -53,6 +53,7 @@ TODO
 - Deploying an application, updating scaling configuration, versions, and traffic splitting
   - [App Engine - Standard Environment - Basics](3.3.1.1)
   - [App Engine - Standard Environment - More](3.3.1.2)
+  - [App Engine - Flexible Environment](3.3.1.3)
 - Deploying an application that receives Google Cloud events (e.g., Cloud Pub/Sub events, Cloud Storage object change notification events)
 
 ### 3.4 Deploying and implementing data solutions. Tasks include:
