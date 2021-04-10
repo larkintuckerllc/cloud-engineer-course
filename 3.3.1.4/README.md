@@ -160,28 +160,8 @@ gcloud run services describe hello-world
 
 [Using minimum instances](https://cloud.google.com/run/docs/configuring/min-instances)
 
-```
-gcloud run services describe hello-world --format export > hello-world-service.yaml
-```
-
-```
-gcloud beta run services replace hello-world-service.yaml
-```
-
 ## Traffic Splitting
 
-```
-gcloud beta run services replace hello-world-service.yaml
-```
+> To split traffic between two or more revisions:
 
-```
-  traffic:
-  - revisionName: REVISION-A
-    percent: 50
-  - revisionName: REVISION-B
-    percent: 50
-```
-
-```
-gcloud beta run services replace hello-world-service.yaml
-```
+[Rollbacks, gradual rollouts, and traffic migration](https://cloud.google.com/run/docs/rollouts-rollbacks-traffic-migration)
