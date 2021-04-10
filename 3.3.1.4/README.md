@@ -140,8 +140,48 @@ status:
 
 ## Scaling Configuration
 
-TODO
+```
+gcloud run services describe hello-world
+```
+
+> In Cloud Run, each revision is automatically scaled to the number of container instances needed to handle all incoming requests.
+>
+> When more container instances are processing requests, more CPU and memory will be used, resulting in higher costs. When new container instances need to be started, requests might take more time to be processed, decreasing the performances of your service.
+>
+> To give you more control, Cloud Run provides a concurrency setting that specifies the maximum number of requests that can be processed simultaneously by a given container instance.
+
+[Concurrency](https://cloud.google.com/run/docs/about-concurrency)
+
+> Specifying maximum instances in Cloud Run allows you to limit the scaling of your service in response to incoming requests. Use this setting as a way to control your costs or to limit the number of connections to a backing service, such as to a database.
+
+[Setting a maximum number of container instances](https://cloud.google.com/run/docs/configuring/max-instances)
+
+> By default, Cloud Run scales in to the number of instances based on the number of incoming requests. However, if your service requires reduced latency and you want to limit the number of cold starts, you can change this default behavior by specifying a minimum number of container instances to be kept warm and ready to serve requests. 
+
+[Using minimum instances](https://cloud.google.com/run/docs/configuring/min-instances)
+
+```
+gcloud run services describe hello-world --format export > hello-world-service.yaml
+```
+
+```
+gcloud beta run services replace hello-world-service.yaml
+```
 
 ## Traffic Splitting
 
-TODO
+```
+gcloud beta run services replace hello-world-service.yaml
+```
+
+```
+  traffic:
+  - revisionName: REVISION-A
+    percent: 50
+  - revisionName: REVISION-B
+    percent: 50
+```
+
+```
+gcloud beta run services replace hello-world-service.yaml
+```
