@@ -16,13 +16,6 @@
 
 [HTTP Functions](https://cloud.google.com/functions/docs/writing/http)
 
-```
-exports.helloWorld = (req, res) => {
-  console.log('I am a log entry!');
-  res.send('Hello World!')
-};
-```
-
 ## Logs
 
 > You can also view runtime logs for Cloud Functions from the Cloud Console.
