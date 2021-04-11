@@ -1,5 +1,7 @@
 # Deploying an application, updating scaling configuration, versions, and traffic splitting (Cloud Run)
 
+[![Video](video.png)](https://youtu.be/CYffDxaJyy8)
+
 > Develop and deploy highly scalable containerized applications on a fully managed serverless platform.
 
 [Cloud Run](https://cloud.google.com/run)
