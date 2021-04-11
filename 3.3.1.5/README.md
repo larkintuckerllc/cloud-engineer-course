@@ -1,5 +1,7 @@
 # Deploying an application, updating scaling configuration, versions, and traffic splitting (Cloud Functions)
 
+[![Video](video.png)](https://youtu.be/2SoOJrFXMxc)
+
 > Scalable pay-as-you-go functions as a service (FaaS) to run your code with zero server management.
 
 [Cloud Functions](https://cloud.google.com/functions)
