@@ -1,10 +1,10 @@
-const {PubSub} = require('@google-cloud/pubsub');
+import { PubSub } from '@google-cloud/pubsub';
 
-const subscriptionName = 'hello-sub';
+const subscriptionName = 'my-sub';
 const timeout = 60;
 
 const pubSubClient = new PubSub();
-function listenForMessages() {
+const listenForMessages = () => {
   const subscription = pubSubClient.subscription(subscriptionName);
   let messageCount = 0;
 

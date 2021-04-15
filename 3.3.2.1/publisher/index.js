@@ -1,7 +1,7 @@
-const { PubSub } = require('@google-cloud/pubsub');
+import { PubSub } from '@google-cloud/pubsub';
 
-const topicName = 'hello';
-const data = JSON.stringify({foo: 'bar'});
+const topicName = 'my-topic';
+const data = JSON.stringify({ foo: 'bar' });
 
 const pubSubClient = new PubSub();
 
