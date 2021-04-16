@@ -12,3 +12,10 @@
 
 [Using push subscriptions](https://cloud.google.com/pubsub/docs/push)
 
+```
+gcloud builds submit --tag gcr.io/training-main-310016/events:0.1.0
+```
+
+```
+gcloud run deploy --image gcr.io/training-main-310016/events:0.1.0 --platform managed
+```
