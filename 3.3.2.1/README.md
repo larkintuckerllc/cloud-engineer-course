@@ -1,5 +1,7 @@
 # Cloud Pub/Sub
 
+[![Video](video.png)](https://youtu.be/8bi25SXQFvU)
+
 > Pub/Sub is an asynchronous messaging service that decouples services that produce events from services that process events.
 
 [What Is Pub/Sub?](https://cloud.google.com/pubsub/docs/overview)
