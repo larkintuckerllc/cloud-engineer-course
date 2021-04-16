@@ -8,3 +8,7 @@
 
 [Subscriber overview](https://cloud.google.com/pubsub/docs/subscriber)
 
+> When Pub/Sub delivers a message to a push endpoint, Pub/Sub sends the message in the body of a POST request. The body of the request is a JSON object and the message data is in the message.data field. The message data is base64-encoded.
+
+[Using push subscriptions](https://cloud.google.com/pubsub/docs/push)
+
