@@ -1,4 +1,4 @@
-# Cloud Pub/Sub
+# Deploying an application that receives Google Cloud events (e.g., Cloud Pub/Sub events, Cloud Storage object change notification events) (Cloud Pub/Sub)
 
 [![Video](video.png)](https://youtu.be/8bi25SXQFvU)
 
