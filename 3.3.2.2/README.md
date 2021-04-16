@@ -1,5 +1,7 @@
 # Deploying an application that receives Google Cloud events (e.g., Cloud Pub/Sub events, Cloud Storage object change notification events) (App Engine - Flexible Environment)
 
+[![Video](video.png)](https://youtu.be/CBHsMP_S3Zk)
+
 > A service account is a special kind of account used by an application or a virtual machine (VM) instance, not a person. Applications use service accounts to make authorized API calls, authorized as either the service account itself, or as Google Workspace or Cloud Identity users through domain-wide delegation.
 
 [Service accounts](https://cloud.google.com/iam/docs/service-accounts)
