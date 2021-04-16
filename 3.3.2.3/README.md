@@ -1,5 +1,7 @@
 # Deploying an application that receives Google Cloud events (e.g., Cloud Pub/Sub events, Cloud Storage object change notification events) (Cloud Run)
 
+[![Video](video.png)](https://youtu.be/JENm4hUqqzs)
+
 > In push delivery, Pub/Sub initiates requests to your subscriber application to deliver messages.
 > 
 > The Pub/Sub server sends each message as an HTTPS request to the subscriber application at a pre-configured endpoint.
