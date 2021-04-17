@@ -1,5 +1,7 @@
 # Deploying an application that receives Google Cloud events (e.g., Cloud Pub/Sub events, Cloud Storage object change notification events) (Cloud Functions)
 
+[![Video](video.png)](https://youtu.be/XLNb5sND594)
+
 > Cloud Functions automatically creates push subscriptions that forward messages from the specified topic to your function.
 
 [Cloud Pub/Sub Tutorial](https://cloud.google.com/functions/docs/tutorials/pubsub)
