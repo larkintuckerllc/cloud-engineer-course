@@ -60,6 +60,7 @@ TODO
   - [Cloud Pub/Sub](3.3.2.1)
   - [App Engine - Flexible Environment](3.3.2.2)
   - [Cloud Run](3.3.2.3)
+  - [Cloud Functions](3.3.2.4)
 
 ### 3.4 Deploying and implementing data solutions. Tasks include:
 
