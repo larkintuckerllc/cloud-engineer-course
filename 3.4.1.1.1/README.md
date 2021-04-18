@@ -1,5 +1,7 @@
 # Initializing data systems with products (Cloud SQL) (Part 1)
 
+[![Video](video.png)](https://youtu.be/vV334GgW47c)
+
 > Cloud SQL provides a cloud-based alternative to local MySQL, PostgreSQL, and SQL Server databases. You should use Cloud SQL if you want to spend less time managing your database and more time using it.
 
 [What is Cloud SQL?](https://cloud.google.com/sql/docs/introduction)
