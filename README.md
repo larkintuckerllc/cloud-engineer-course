@@ -67,6 +67,7 @@ TODO
 - Initializing data systems with products (e.g., Cloud SQL, Cloud Datastore, BigQuery, Cloud Spanner, Cloud Pub/Sub, Cloud Bigtable, Cloud Dataproc, Cloud Dataflow, Cloud Storage)
   - Cloud SQL
     - [Part 1](3.4.1.1.1)
+    - [Part 2](3.4.1.1.2)
   - Cloud Pub/Sub **(same as 3.3.2.1)**
 - Loading data (e.g., command line upload, API transfer, import/export, load data from Cloud Storage, streaming data to Cloud Pub/Sub)
 
