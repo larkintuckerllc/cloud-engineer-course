@@ -71,3 +71,13 @@ https://cloud.google.com/sql/docs/key-terms
 > If you don't use the proxy, and you are connecting your client from your own public IP address, you need to add your client's public address as an authorized network.
 
 [Authorizing with authorized networks](https://cloud.google.com/sql/docs/postgres/authorize-networks)
+
+https://blog.timescale.com/tutorials/how-to-install-psql-on-mac-ubuntu-debian-windows/
+
+```
+gcloud sql connect my-db --user=postgres
+```
+
+```
+psql -h 34.122.247.225 -U postgres
+```
