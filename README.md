@@ -68,6 +68,8 @@ TODO
   - Cloud SQL
     - [Part 1](3.4.1.1.1)
     - [Part 2](3.4.1.1.2)
+    - [Part 3](3.4.1.1.3)
+    - [Part 4](3.4.1.1.4)
   - Cloud Pub/Sub **(same as 3.3.2.1)**
 - Loading data (e.g., command line upload, API transfer, import/export, load data from Cloud Storage, streaming data to Cloud Pub/Sub)
 
