@@ -1,5 +1,7 @@
 # Initializing data systems with products (Cloud SQL) (Part 2)
 
+[![Video](video.png)](https://youtu.be/WM5HcGX2Jv8)
+
 ## Authorizing with SSL/TLS certificates
 
 > Cloud SQL supports connecting to an instance using the Transport Layer Security (SSL/TLS) protocol. Data in transit inside a physical boundary controlled by or on behalf of Google is generally authenticated but might not be encrypted by default. If you connect to an instance using its public IP address, use SSL/TLS certificates, so the data is secure during transmission. SSL/TLS is the standard protocol for encryption of data sent over the internet. If your data isn't encrypted, anyone can examine your packets and read confidential information.
