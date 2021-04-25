@@ -76,8 +76,84 @@ Let you migrate data from one region to another with minimum downtime.
 
 ## Managing Database and Users
 
-TODO
+> When you create a new Cloud SQL instance, you must configure the default user account before you can connect to the instance.
+> 
+> For Cloud SQL for PostgreSQL, the default user is postgres.
+
+-[Creating and managing PostgreSQL users](https://cloud.google.com/sql/docs/postgres/create-manage-users)
+
+> Users created using Cloud SQL have the privileges associated with the cloudsqlsuperuser role: CREATEROLE, CREATEDB, and LOGIN
+
+-[Creating and managing PostgreSQL users](https://cloud.google.com/sql/docs/postgres/create-manage-users)
 
 ## IAM Database Authentication
 
-TODO
+> Cloud SQL is integrated with IAM to help you better monitor and manage access for users and service accounts to databases. This feature is called IAM database authentication.
+>
+> Authentication is a means of access control that verifies the identity of a user. For end users, authentication is achieved when the user enters credentials (a username and password). For applications, authentication is achieved when a user's credentials are assigned to a service account.
+
+-[Overview of Cloud SQL IAM database authentication](https://cloud.google.com/sql/docs/postgres/authentication)
+
+> Enter cloudsql.iam_authentication for the flag name. Make sure that On is selected for this flag.
+
+-[Configuring instances for IAM database authentication](https://cloud.google.com/sql/docs/postgres/create-edit-iam-instances)
+
+> You add the user to each instance that contains the databases that the user needs to access.
+
+[Creating and managing users that use IAM database authentication](https://cloud.google.com/sql/docs/postgres/create-manage-iam-users)
+
+> Granting login access to a user or service account
+
+[Creating and managing users that use IAM database authentication](https://cloud.google.com/sql/docs/postgres/create-manage-iam-users)
+
+```
+apt update
+```
+
+```
+apt install postgresql-client
+```
+
+```
+psql -h 10.7.240.3 -U postgres
+```
+
+```
+CREATE DATABASE my_app;
+```
+
+```
+\connect my_app
+```
+
+```
+CREATE TABLE persons (
+    first varchar(255),
+    last varchar(255)
+);
+```
+
+```
+INSERT INTO persons (first, last)
+VALUES ('John', 'Tucker');
+```
+
+```
+SELECT * FROM persons;
+```
+
+> Before a user or service account can connect to a database or run queries against it, they need to be granted privileges for that database. Privileges that you can grant include SELECT, INSERT, UPDATE, DELETE, CREATE, CONNECT, and others. See the GRANT reference page for a complete list of privileges you can grant to users and service accounts.
+
+[Creating and managing users that use IAM database authentication](https://cloud.google.com/sql/docs/postgres/create-manage-iam-users)
+
+```
+GRANT CONNECT ON DATABASE my_app TO "559797863464-compute@developer";
+GRANT USAGE ON SCHEMA public TO "559797863464-compute@developer"; 
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO "559797863464-compute@developer";
+```
+
+```
+psql --host=10.7.240.3  \
+--username=559797863464-compute@developer \
+--dbname=my_app
+```
