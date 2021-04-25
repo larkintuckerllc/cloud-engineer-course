@@ -1,5 +1,7 @@
 # Initializing data systems with products (Cloud SQL) (Part 3)
 
+[![Video](video.png)](https://youtu.be/k5R2cizE9ic)
+
 > The Cloud SQL Auth proxy works by having a local client running in the local environment. Your application communicates with the Cloud SQL Auth proxy with the standard database protocol used by your database. The Cloud SQL Auth proxy uses a secure tunnel to communicate with its companion process running on the server.
 
 [About the Cloud SQL Auth proxy](https://cloud.google.com/sql/docs/postgres/sql-proxy)
