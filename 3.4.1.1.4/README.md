@@ -106,13 +106,8 @@ Let you migrate data from one region to another with minimum downtime.
 
 [Creating and managing users that use IAM database authentication](https://cloud.google.com/sql/docs/postgres/create-manage-iam-users)
 
-```
-apt update
-```
 
-```
-apt install postgresql-client
-```
+### User Account
 
 ```
 psql -h 10.7.240.3 -U postgres
@@ -147,13 +142,30 @@ SELECT * FROM persons;
 [Creating and managing users that use IAM database authentication](https://cloud.google.com/sql/docs/postgres/create-manage-iam-users)
 
 ```
-GRANT CONNECT ON DATABASE my_app TO "559797863464-compute@developer";
-GRANT USAGE ON SCHEMA public TO "559797863464-compute@developer"; 
-GRANT SELECT ON ALL TABLES IN SCHEMA public TO "559797863464-compute@developer";
+GRANT CONNECT ON DATABASE my_app TO "user2.larkintuckerllc@gmail.com"
+GRANT USAGE ON SCHEMA public TO "user2.larkintuckerllc@gmail.com"
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO "user2.larkintuckerllc@gmail.com"
 ```
 
 ```
+export PGPASSWORD=$(gcloud auth print-access-token)
 psql --host=10.7.240.3  \
---username=559797863464-compute@developer \
+--username=user2.larkintuckerllc@gmail.com \
 --dbname=my_app
+```
+
+### Service Account
+
+```
+GRANT CONNECT ON DATABASE my_app TO "261943991537-compute@developer"
+GRANT USAGE ON SCHEMA public TO "261943991537-compute@developer"
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO "261943991537-compute@developer"
+```
+
+```
+apt update
+```
+
+```
+apt install postgresql-client
 ```
