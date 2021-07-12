@@ -1,5 +1,7 @@
 # Initializing data systems with products (Cloud SQL) (Part 4)
 
+[![Video](video.png)](https://youtu.be/njr2CrfRffI)
+
 ## Customer-Managed Encryption Keys
 
 > Your data is encrypted using the 256-bit Advanced Encryption Standard (AES-256), or better, with symmetric keys: that is, the same key is used to encrypt the data when it is stored, and to decrypt it when it is used. These data keys are themselves encrypted using a key stored in a secure keystore, and changed regularly.
