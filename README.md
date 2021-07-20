@@ -70,7 +70,16 @@ TODO
     - [Part 2](3.4.1.1.2)
     - [Part 3](3.4.1.1.3)
     - [Part 4](3.4.1.1.4)
+  - Cloud Datastore
+    - [Part 1](3.4.1.2.1)
+    - [Part 2](3.4.1.2.2)
+  - [BigQuery](3.4.1.3)
+  - [Cloud Spanner](3.4.1.4)
   - Cloud Pub/Sub **(same as 3.3.2.1)**
+  - [Cloud Bigtable](3.4.1.6)
+  - [Cloud Dataproc](3.4.1.7)
+  - [Cloud Dataflow](3.4.1.8)
+  - Cloud Storage
 - Loading data (e.g., command line upload, API transfer, import/export, load data from Cloud Storage, streaming data to Cloud Pub/Sub)
 
 ### 3.5 Deploying and implementing networking resources. Tasks include:
