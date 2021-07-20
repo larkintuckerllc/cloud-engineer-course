@@ -1,5 +1,7 @@
 # Initializing data systems with products (Cloud Datastore) (Part 1)
 
+[![Video](video.png)](https://youtu.be/fr78_bJIGM8)
+
 > When you create a new Firestore database, you can configure the database instance to run in Datastore mode which makes the database backwards-compatible with Datastore
 > ...
 > Firestore is the next major version of Datastore and a re-branding of the product. Taking the best of Datastore and the Firebase Realtime Database, Firestore is a NoSQL document database built for automatic scaling, high performance, and ease of application development.
