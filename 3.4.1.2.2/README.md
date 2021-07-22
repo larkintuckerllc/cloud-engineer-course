@@ -1,5 +1,7 @@
 # Initializing data systems with products (Cloud Datastore) (Part 2)
 
+[![Video](video.png)](https://youtu.be/QYtCTtSzmSc)
+
 ## Indexes and Queries
 
 > Every Firestore in Datastore mode query computes its results using one or more indexes which contain entity keys in a sequence specified by the index's properties and, optionally, the entity's ancestors. The indexes are updated to reflect any changes the application makes to its entities, so that the correct results of all queries are available with no further computation needed.
