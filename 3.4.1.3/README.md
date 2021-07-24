@@ -47,6 +47,29 @@ All tables that are referenced in a query must be stored in datasets in the same
 
 [Dataset locations](https://cloud.google.com/bigquery/docs/locations)
 
+https://cloud.google.com/bigquery/docs/quickstarts/quickstart-web-ui
+
+```
+bq show bigquery-public-data:usa_names.usa_1910_2013
+```
+
+```
+bq query --use_legacy_sql=false \
+'SELECT
+  name, gender,
+  SUM(number) AS total
+FROM
+  `bigquery-public-data.usa_names.usa_1910_2013`
+GROUP BY
+  name, gender
+ORDER BY
+  total DESC
+LIMIT
+  10'
+```
+
+## Miscellaneous
+
 > A partitioned table is a special table that is divided into segments, called partitions, that make it easier to manage and query your data. By dividing a large table into smaller partitions, you can improve query performance, and you can control costs by reducing the number of bytes read by a query.
 > 
 > You can partition BigQuery tables by:
