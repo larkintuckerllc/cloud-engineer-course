@@ -1,5 +1,7 @@
 # Initializing data systems with products (BigQuery)
 
+[![Video](video.png)](https://youtu.be/CbvrvXdsIxA)
+
 > BigQuery is an enterprise data warehouse that solves this problem by enabling super-fast SQL queries using the processing power of Google's infrastructure
 
 [What is BigQuery?](https://cloud.google.com/bigquery/docs/introduction)
