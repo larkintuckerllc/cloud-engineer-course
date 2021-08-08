@@ -1,5 +1,6 @@
 # Initializing data systems with products (Cloud Spanner)
 
+[![Video](video.png)](https://youtu.be/0RGTp0kYpWA)
 > Fully managed relational database with unlimited scale, strong consistency, and up to 99.999% availability.
 
 [Cloud Spanner](https://cloud.google.com/spanner)
