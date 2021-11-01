@@ -1,5 +1,7 @@
 # Initializing data systems with products (Cloud Dataflow)
 
+[![video](video.png)](https://youtu.be/5jgX6PZsShI)
+
 > Unified stream and batch data processing that's serverless, fast, and cost-effective.
 
 [Dataflow](https://cloud.google.com/dataflow)
