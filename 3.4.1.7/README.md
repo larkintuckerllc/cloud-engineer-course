@@ -6,6 +6,26 @@ There is not much here to do other than generally understand what Dataproc is an
 
 [What is Dataproc?](https://cloud.google.com/dataproc/docs/concepts/overview)
 
+> When you create a cluster, standard Apache Hadoop ecosystem components are automatically installed on the cluster (see Dataproc Version List). 
+
+```
+Anaconda	ANACONDA	1.3 and later
+(not available in 2.0 and later)	GA
+Docker	DOCKER	1.5 and later	GA
+Druid	DRUID	1.3 and later	Alpha
+Flink	FLINK	1.5 and later	GA
+HBase	HBASE	1.5 and later	Beta
+Hive WebHCat	HIVE_WEBHCAT	1.3 and later	GA
+Jupyter Notebook	JUPYTER	1.3 and later	GA
+Presto	PRESTO	1.3 and later	GA
+Ranger	RANGER	1.3 and later	GA
+Solr	SOLR	1.3 and later	GA
+Zeppelin Notebook	ZEPPELIN	1.3 and later	GA
+Zookeeper	ZOOKEEPER	1.0 and later	GA
+```
+
+[Dataproc components](https://cloud.google.com/dataproc/docs/concepts/components/overview)
+
 ## Pricing
 
 > Dataproc pricing is based on the size of Dataproc clusters and the duration of time that they run. The size of a cluster is based on the aggregate number of virtual CPUs (vCPUs) across the entire cluster, including the master and worker nodes. The duration of a cluster is the length of time between cluster creation and cluster deletion.
