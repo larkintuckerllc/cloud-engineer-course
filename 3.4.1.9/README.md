@@ -1,5 +1,7 @@
 # Initializing data systems with products (Cloud Storage)
 
+[![Video](video.png)](https://youtu.be/AUIAMtovo70)
+
 > Object storage for companies of all sizes. Store any amount of data. Retrieve it as often as you’d like.
 
 [Cloud Storage](https://cloud.google.com/storage)
