@@ -80,7 +80,7 @@ TODO
   - [Cloud Dataproc](3.4.1.7)
   - [Cloud Dataflow](3.4.1.8)
   - [Cloud Storage](3.4.1.9)
-- Loading data (e.g., command line upload, API transfer, import/export, load data from Cloud Storage, streaming data to Cloud Pub/Sub)
+- [Loading data (e.g., command line upload, API transfer, import/export, load data from Cloud Storage, streaming data to Cloud Pub/Sub)](3.4.2)
 
 ### 3.5 Deploying and implementing networking resources. Tasks include:
 
