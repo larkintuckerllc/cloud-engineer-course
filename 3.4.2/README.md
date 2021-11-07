@@ -1,5 +1,7 @@
 # Loading data
 
+[![video](video.png)](https://youtu.be/QOOxr7RIEco)
+
 ## Cloud Storage
 
 > gsutil is a Python application that lets you access Cloud Storage from the command line. You can use gsutil to do a wide range of bucket and object management tasks,
