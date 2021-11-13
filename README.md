@@ -84,7 +84,7 @@ TODO
 
 ### 3.5 Deploying and implementing networking resources. Tasks include:
 
-- Creating a VPC with subnets (e.g., custom-mode VPC, shared VPC)
+- [Creating a VPC with subnets (e.g., custom-mode VPC, shared VPC)](3.5.1)
 - Launching a Compute Engine instance with custom network configuration (e.g., internal-only IP address, Google private access, static external and private IP address, network tags)
 - Creating ingress and egress firewall rules for a VPC (e.g., IP subnets, tags, service accounts)
 - Creating a VPN between a Google VPC and an external network using Cloud VPN
