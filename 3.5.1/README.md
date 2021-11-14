@@ -1,5 +1,7 @@
 # Creating a VPC with subnets (e.g., custom-mode VPC, shared VPC
 
+[Video](https://youtu.be/dHrkMVN6pfk)
+
 > You can think of a VPC network the same way you'd think of a physical network, except that it is virtualized within Google Cloud. A VPC network is a global resource that consists of a list of regional virtual subnetworks (subnets) in data centers, all connected by a global wide area network. VPC networks are logically isolated from each other in Google Cloud.
 
 [VPC Overview](https://cloud.google.com/vpc/docs/overview)
