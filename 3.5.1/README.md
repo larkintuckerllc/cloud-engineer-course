@@ -1,4 +1,4 @@
-# Creating a VPC with subnets (e.g., custom-mode VPC, shared VPC
+# Creating a VPC with subnets (e.g., custom-mode VPC, shared VPC)
 
 [Video](https://youtu.be/dHrkMVN6pfk)
 
