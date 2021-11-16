@@ -1,5 +1,7 @@
 # Launching a Compute Engine instance with custom network configuration (e.g., internal-only IP address, Google private access, static external and private IP address, network tags)
 
+[Video](https://youtu.be/m06Iy9AjBig)
+
 # Internal-Only IP Address
 
 > Every VM instance can have one primary internal IP address that is unique to the VPC network. You can assign a specific internal IP address when you create a VM instance, or you can reserve a static internal IP address for your project and assign that address to your resources. If you don't specify an address, Compute Engine assigns one automatically. In either case, the address must belong to the IP range of the subnet.
