@@ -87,8 +87,9 @@ TODO
 - [Creating a VPC with subnets (e.g., custom-mode VPC, shared VPC)](3.5.1)
 - [Launching a Compute Engine instance with custom network configuration (e.g., internal-only IP address, Google private access, static external and private IP address, network tags)](3.5.2)
 - [Creating ingress and egress firewall rules for a VPC (e.g., IP subnets, tags, service accounts)](3.5.3)
-- Creating a VPN between a Google VPC and an external network using Cloud VPN
+- [Creating a VPN between a Google VPC and an external network using Cloud VPN](3.5.4)
 - Creating a load balancer to distribute application network traffic to an application (e.g., Global HTTP(S) load balancer, Global SSL Proxy load balancer, Global TCP Proxy load balancer, regional network load balancer, regional internal load balancer)
+- TODO?: SERVICE ENDPOINTS; Choosing a hybrid networking solution (link in VPN)
 
 ### 3.6 Deploying a solution using Cloud Marketplace. Tasks include:
 
