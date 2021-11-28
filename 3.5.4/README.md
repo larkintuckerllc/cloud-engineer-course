@@ -21,3 +21,9 @@ No video
 > When using multiple HA VPN gateways, we recommend using an active/active routing configuration. With this configuration, the observed bandwidth capacity at the time of normal tunnel operation is twice that of the guaranteed bandwidth capacity. However, this configuration effectively underprovisions the tunnels and can cause dropped traffic in case of failover.
 
 [Cloud VPN Overview](https://cloud.google.com/network-connectivity/docs/vpn/concepts/overview)
+
+> Hourly charge for each tunnel attached to the gateway.
+
+> HA VPN only: For 99.99% availability, you must configure two tunnels, or, if working with an AWS peer gateway, four tunnels.	$0.050
+
+[Pricing](https://cloud.google.com/network-connectivity/docs/vpn/pricing)
