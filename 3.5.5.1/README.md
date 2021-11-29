@@ -90,3 +90,12 @@ DO: CREATE LOAD BALANCER
   * subnet: default
 
 DO: VALIDATE BY CREATING INSTANCE AND CURLING VIP
+
+## Pricing
+
+Internal HTTP(S)
+
+$0.025 per proxy instance per hour
+Ingress price: $0.008 per GB
+
+Proxies can roughly handle 1,400 RPS
