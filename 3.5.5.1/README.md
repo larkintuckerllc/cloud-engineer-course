@@ -1,5 +1,7 @@
 # Creating a load balancer to distribute application network traffic to an application (e.g., Global HTTP(S) load balancer, Global SSL Proxy load balancer, Global TCP Proxy load balancer, regional network load balancer, regional internal load balancer) (Part 1)
 
+[Video](https://youtu.be/W_wcwag5MM8)
+
 > Cloud Load Balancing is a fully distributed, software-defined managed service. It isn't hardware-based, so you don't need to manage a physical load balancing infrastructure.
 
 > Cloud Load Balancing is built on the same frontend-serving infrastructure that powers Google. It supports 1 million+ queries per second with consistent high performance and low latency. Traffic enters Cloud Load Balancing through 80+ distinct global load balancing locations, maximizing the distance traveled on Google's fast private network backbone. By using Cloud Load Balancing, you can serve content as close as possible to your users.
