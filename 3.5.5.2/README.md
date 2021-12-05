@@ -1,5 +1,7 @@
 # Creating a load balancer to distribute application network traffic to an application (e.g., Global HTTP(S) load balancer, Global SSL Proxy load balancer, Global TCP Proxy load balancer, regional network load balancer, regional internal load balancer) (Part 2)
 
+[Video](https://youtu.be/w3hB0hyQPyA)
+
 > Google Cloud Internal TCP/UDP Load Balancing is a regional load balancer that is built on the Andromeda network virtualization stack.
 
 > Internal TCP/UDP Load Balancing distributes traffic among internal virtual machine (VM) instances in the same region in a Virtual Private Cloud (VPC) network. It enables you to run and scale your services behind an internal IP address that is accessible only to systems in the same VPC network or systems connected to your VPC network.
