@@ -4,10 +4,6 @@
 
 https://cloud.google.com/certification/cloud-engineer
 
-## Prerequisites
-
-TODO
-
 ##  1. Setting up a cloud solution environment
 
 ### 1.1 Setting up cloud projects and accounts. Activities include:
@@ -91,7 +87,6 @@ TODO
 - Creating a load balancer to distribute application network traffic to an application (e.g., Global HTTP(S) load balancer, Global SSL Proxy load balancer, Global TCP Proxy load balancer, regional network load balancer, regional internal load balancer)
   - [Part 1](3.5.5.1)
   - [Part 2](3.5.5.2)
-- TODO?: SERVICE ENDPOINTS; Choosing a hybrid networking solution (link in VPN)
 
 ### 3.6 Deploying a solution using Cloud Marketplace. Tasks include:
 
