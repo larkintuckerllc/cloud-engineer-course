@@ -1,4 +1,6 @@
 # Browsing Cloud Marketplace catalog and viewing solution details
+
+[Video](https://youtu.be/Hp0ELWAbfCI)
     
 > Google Cloud Marketplace lets you quickly deploy functional software packages that run on Google Cloud. Even if you are unfamiliar with services like Compute Engine or Cloud Storage, you can start up a familiar software package without having to manually configure the software, virtual machine (VM) instances, storage, or network settings. You can deploy a software package now, and scale that deployment later when your apps require additional capacity.
 
