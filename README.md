@@ -90,8 +90,8 @@ https://cloud.google.com/certification/cloud-engineer
 
 ### 3.6 Deploying a solution using Cloud Marketplace. Tasks include:
 
-- Browsing Cloud Marketplace catalog and viewing solution details
-- Deploying a Cloud Marketplace solution
+- [Browsing Cloud Marketplace catalog and viewing solution details](3.6.1)
+- Deploying a Cloud Marketplace solution **(same as 3.6.1)**
 
 ### 3.7 Deploying application infrastructure using Cloud Deployment Manager. Tasks include:
 
