@@ -95,8 +95,8 @@ https://cloud.google.com/certification/cloud-engineer
 
 ### 3.7 Deploying application infrastructure using Cloud Deployment Manager. Tasks include:
 
-- Developing Deployment Manager templates
-- Launching a Deployment Manager template
+- [Developing Deployment Manager templates](3.7.1)
+- Launching a Deployment Manager template **(same as 3.7.1)**
 
 ### Addendum
 
