@@ -100,5 +100,7 @@ https://cloud.google.com/certification/cloud-engineer
 
 ### Addendum
 
-- TODO: Images
-- TODO: Deployment Model
+- Images
+- [Continuous delivery](a.2)
+- Planning and configuring a cloud solution
+- Managing users in Cloud Identity (manually and automated)
