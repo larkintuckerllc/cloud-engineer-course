@@ -122,4 +122,17 @@ gcloud builds submit --config cloudbuild.yaml
 
 # Deploy
 
-TODO
+> Spinnaker is an open-source, multi-cloud continuous delivery platform that helps you release software changes with high velocity and confidence.
+
+[Concepts](https://spinnaker.io/docs/concepts/)
+
+> Spinnaker supports Google Cloud Build as a continuous integration system.
+Setting up Google Cloud Build as a Continuous Integration (CI) system within Spinnaker allows you to:
+
+> trigger pipelines when a GCB build completes
+
+> add a GCB stage to your pipeline
+
+[Google Cloud Build](https://spinnaker.io/docs/setup/other_config/ci/gcb/)
+
+https://cloud.google.com/build/docs/quickstart-deploy
