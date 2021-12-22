@@ -1,5 +1,7 @@
 # Continuous delivery
 
+[video](https://youtu.be/yU4BNDeVSxg)
+
 ![Continuous delivery](cd.png)
 
 [Continuous delivery](https://cloud.google.com/solutions/continuous-delivery)
