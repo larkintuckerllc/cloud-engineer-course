@@ -100,7 +100,7 @@ https://cloud.google.com/certification/cloud-engineer
 
 ### Addendum
 
-- Images
+- [Images](a.1)
 - [Continuous delivery](a.2)
-- Planning and configuring a cloud solution
+- [Planning and configuring a cloud solution](a.3)
 - Managing users in Cloud Identity (manually and automated)
