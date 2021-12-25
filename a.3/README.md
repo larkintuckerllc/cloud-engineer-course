@@ -1,5 +1,7 @@
 # Planning and configuring a cloud solution
 
+This section is simply theorectical; no video.
+
 ## 2.1 Planning and estimating Google Cloud product use using the Pricing Calculator
 
 ## 2.2 Planning and configuring compute resources. Considerations include:
@@ -43,11 +45,68 @@ https://john-tucker.medium.com/planning-google-cloud-platform-gcp-compute-resour
 
 ## 2.3 Planning and configuring data storage options. Considerations include:
 
+### Database Options
+
 Product choice (e.g., Cloud SQL, BigQuery, Firestore, Cloud Spanner, Cloud Bigtable)
-Choosing storage options (e.g., Zonal persistent disk, Regional balanced persistent disk, Standard, Nearline, Coldline, Archive)
+
+Cloud Spanner   | SQL   | OLTP | Closed SRC
+Cloud SQL       | SQL   | OLTP | Open SRC
+BigQuery        | SQL   | OLAP | Closed SRC
+Cloud BigTable  | NOSQL | OLAP | Closed SRC
+Cloud Datastore | NOSQL | OLTP | Closed SRC
+
+### GCE Storage Options
+
+> Compute Engine offers several types of storage options for your instances. Each of the following storage options has unique price and performance characteristics:
+
+> Zonal persistent disk: Efficient, reliable block storage.
+
+> Regional persistent disk: Regional block storage replicated in two zones.
+
+> Local SSD: High performance, transient, local block storage.
+
+> Cloud Storage buckets: Affordable object storage.
+
+> Filestore: High performance file storage for Google Cloud users.
+
+[Storage options](https://cloud.google.com/compute/docs/disks)
+
+Local SSD            | Block  | Instance    | SSD
+Regional Standard PD | Block  | Regional(1) | HDD
+Regional Balanced PD | Block  | Regional(1) | SSD
+Regional SSD PD      | Block  | Regional(1) | SSD
+Zonal Standard PD    | Block  | Zonal       | HDD
+Zonal Balanced PD    | Block  | Zonal       | SSD
+Zonal SSD PD         | Block  | Zonal       | SSD
+Zonal Extreme PD     | Block  | Zonal       | SSD
+Cloud Storage Bucket | Object | Global      | N/A
+Filestore            | File   | Zonal (2)   | N/A
+
+(1) Regional redundancy, Zonal access
+
+(2) Zonal redundancy, Global access
+
+> A Filestore instance consists of a single NFS file share with configurable export settings and default Unix permissions. For more information about these settings and how they affect access, see Access Control.
+
+[Architecture](https://cloud.google.com/filestore/docs/architecture)
+
+### Cloud Storage
+
+Standard | 0 Days
+Nearline | 30 Days
+Coldline | 90 Days
+Archive  | 365 Days
 
 ## 2.4 Planning and configuring network resources. Tasks include:
 
-Differentiating load balancing options
-Identifying resource locations in a network for availability
-Configuring Cloud DNS
+### Differentiating load balancing options
+
+TODO
+
+### Identifying resource locations in a network for availability
+
+TODO
+
+### Configuring Cloud DNS
+
+TODO
