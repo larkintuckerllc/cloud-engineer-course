@@ -104,3 +104,4 @@ https://cloud.google.com/certification/cloud-engineer
 - [Continuous delivery](a.2)
 - [Planning and configuring a cloud solution](a.3)
 - Managing users in Cloud Identity (manually and automated)
+  - [Part 1](a.4.1)
