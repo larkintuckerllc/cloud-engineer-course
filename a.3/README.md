@@ -101,12 +101,44 @@ Archive  | 365 Days
 
 ### Differentiating load balancing options
 
-TODO
+The diagram in 3.5.5.1 is sufficient.
 
 ### Identifying resource locations in a network for availability
 
-TODO
+Assume this amounts to using zones for reliability and regions for low latency.
 
 ### Configuring Cloud DNS
 
-TODO
+> This page provides an overview of Cloud DNS features and capabilities. Cloud DNS is a high-performance, resilient, global Domain Name System (DNS) service that publishes your domain names to the global DNS in a cost-effective way.
+
+> Cloud DNS offers both public zones and private managed DNS zones. A public zone is visible to the public internet, while a private zone is visible only from one or more Virtual Private Cloud (VPC) networks that you specify. 
+
+[Cloud DNS overview](https://cloud.google.com/dns/docs/overview/)
+
+## Forwarding Zone
+
+> A Cloud DNS forwarding zone is a special type of Cloud DNS private zone. Instead of creating records within the zone, you specify a set of forwarding targets. Each forwarding target is an IP address of a DNS server, located in your VPC network, or in an on-premises network connected to your VPC network by Cloud VPN or Cloud Interconnect.
+
+## DNS Peering
+
+> DNS peering lets you send requests for records that come from one zone's namespace to another VPC network. For example, a SaaS provider can give a SaaS customer access to DNS records it manages.
+
+> To provide DNS peering, you must create a Cloud DNS peering zone and configure it to perform DNS lookups in a VPC network where the records for that zone's namespace are available. The VPC network where the DNS peering zone performs lookups is called the DNS producer network.
+
+> Transitive DNS peering is supported, but only through a single transitive hop.
+
+## Reverse Lookups
+
+> To perform reverse lookups with custom PTR records for RFC 1918 addresses, you must create a Cloud DNS private zone that is at least as specific as one of the following example zones. 
+
+## Split Horizon
+
+> You can use a combination of public and private zones in a split horizon DNS configuration. Private zones enable you to define different responses to a query for the same record when the query originates from a VM within an authorized VPC network. Split horizon DNS is useful whenever you need to provide different records for the same DNS queries depending on the originating VPC network.
+
+## Cross-Project Binding Zones
+
+> Cross-project binding zones let you keep the ownership of the DNS namespace of the service project independent of the ownership of the DNS namespace of the entire VPC network.
+
+> A typical Shared VPC setup has service projects that take ownership of a virtual machine (VM) application or services, while the host project takes ownership of the VPC network and network infrastructure. Often, a DNS namespace is created from the VPC network's namespace to match the service project's resources. For such a setup, it can be easier to delegate the administration of each service project's DNS namespace to the administrators of each service project (which are often different departments or businesses). Cross-project binding lets you separate the ownership of the DNS namespace of the service project from the ownership of the DNS namespace of the entire VPC network.
+
+[DNS zones overview](https://cloud.google.com/dns/docs/zones/zones-overview)
