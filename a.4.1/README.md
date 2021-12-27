@@ -1,13 +1,5 @@
 # Managing users in Cloud Identity (manually and automated) (Part 1)
 
-In order to follow along, one will need to start with a new DNS domain, e.g., created through GoDaddy. One will also need to create an email address through the DNS domain provider so that one can create a Google account with that email address.
-
-![google](google.png)
-
-We then create a new GCP Project and Billing Account using this Google account. One important thing to observe here is that both of these resources are associated with the Google account, i.e., without some solution one could imagine an organization accumulating a mess of Projects and Billing Accounts owned by different Google accounts.
-
-![permissions](permissions.png)
-
 ## Resource Hiearchy
 
 > The purpose of the Google Cloud resource hierarchy is two-fold:
@@ -17,8 +9,6 @@ We then create a new GCP Project and Billing Account using this Google account. 
 > Provide attach points and inheritance for access control and organization policies.
 
 > Google Workspace and Cloud Identity customers have access to additional features of the Google Cloud resource hierarchy that provide benefits such as centralized visibility and control, and further grouping mechanisms, such as folders.
-
-![organization](organization.png)
 
 > When a user with a Google Workspace or Cloud Identity account creates a Google Cloud Project, an Organization resource is automatically provisioned for them.
 
@@ -36,7 +26,11 @@ We then create a new GCP Project and Billing Account using this Google account. 
 
 [Resource hierarchy](https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy)
 
+[identity management](idm.png)
+
 ## Google Workspace or Cloud Identity
+
+In order to follow along, one will need to start with a new DNS domain, e.g., created through GoDaddy. 
 
 > How teams of all sizes connect, create, and collaborate. A flexible, innovative solution for people and organizations to achieve more.
 
@@ -46,12 +40,4 @@ We then create a new GCP Project and Billing Account using this Google account. 
 
 [Cloud Identity](https://workspace.google.com/signup/gcpidentity/welcome)
 
-## Identity Management
-
-[identity management](idm.png)
-
-# Cloud Identity
-
-Here we create a new Cloud Identity account with this user.
-
-![cloud identity](cloud-identity.png)
+Will automatically, kick one into a checklist wizard in Cloud Console, IAM & Admin > Identity & Organization. 
