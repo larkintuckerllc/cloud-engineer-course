@@ -1,4 +1,6 @@
-# Managing users in Cloud Identity (manually and automated) (Part 1)
+# Managing users in Cloud Identity (manually and automated)
+
+Mostly theoretical; except the wizard which is self-explanitory. No video.
 
 ## Resource Hiearchy
 
@@ -28,9 +30,23 @@
 
 [identity management](idm.png)
 
+## Organization Policy
+
+> The Organization Policy Service gives you centralized and programmatic control over your organization's cloud resources. As the organization policy administrator, you will be able to configure constraints across your entire resource hierarchy.
+
+> An organization policy is a configuration of restrictions. You, as the organization policy administrator, define an organization policy, and you set that organization policy on organizations, folders, and projects in order to enforce the restrictions on that resource and its descendants.
+
+> In order to define an organization policy, you choose a constraint, which is a particular type of restriction against either a Google Cloud service or a group of Google Cloud services. You configure that constraint with your desired restrictions.
+
+> Descendants of the targeted resource hierarchy node inherit the organization policy. By applying an organization policy to the root organization node, you are able to effectively drive enforcement of that organization policy and configuration of restrictions across your organization.
+
+> A constraint has a type, either list or boolean. List constraints evaluate the constraint with a list of allowed or denied values that you provide, such as an allowlist of IP addresses that can connect to a virtual machine. Boolean constraints are either enforced or not enforced for a given resource, and govern a specific behavior, such as whether external service accounts can be created.
+
+[Introduction to the Organization Policy Service](https://cloud.google.com/resource-manager/docs/organization-policy/overview)
+
 ## Google Workspace or Cloud Identity
 
-In order to follow along, one will need to start with a new DNS domain, e.g., created through GoDaddy. 
+In order to follow along, one will need to start with a new DNS domain, e.g., created through GoDaddy. Also, helpful if one has setup an email account with DNS provider.
 
 > How teams of all sizes connect, create, and collaborate. A flexible, innovative solution for people and organizations to achieve more.
 
@@ -41,3 +57,6 @@ In order to follow along, one will need to start with a new DNS domain, e.g., cr
 [Cloud Identity](https://workspace.google.com/signup/gcpidentity/welcome)
 
 Will automatically, kick one into a checklist wizard in Cloud Console, IAM & Admin > Identity & Organization. 
+
+**note:** Run into an initial quota problem with number of projects with billing enabled (seems to be 5).  Continued with only the "nonprod" Projects where billing is required, i.e., setting up networking.
+
