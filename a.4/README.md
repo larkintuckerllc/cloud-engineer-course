@@ -28,7 +28,7 @@ Mostly theoretical; except the wizard which is self-explanitory. No video.
 
 [Resource hierarchy](https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy)
 
-[identity management](idm.png)
+![identity management](idm.png)
 
 ## Organization Policy
 
