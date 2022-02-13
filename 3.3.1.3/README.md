@@ -2,6 +2,24 @@
 
 [![Video](video.png)](https://youtu.be/BAWYP-9kVIQ)
 
+**Addendum 2022-02-13**
+
+One important distinction between App Engine Standard and Flexible environment is that with Flexible environment, the workload can run in one's VPC network; thus accessing other resources in the VPC.
+
+> The flexible environment is optimal for applications with the following characteristics:
+> 
+> Source code that is written in a version of any of the supported programming languages: Python, Java, Node.js, Go, Ruby, PHP, or .NET
+>
+> Runs in a Docker container that includes a custom runtime or source code written in other programming languages.
+> 
+> Uses or depends on frameworks that include native code.
+>
+> Accesses the resources or services of your Google Cloud project that reside in the Compute Engine network.
+
+[Choose an App Engine environment](https://cloud.google.com/appengine/docs/the-appengine-environments)
+
+**Notes**
+
 > Application instances run within Docker containers on Compute Engine virtual machines (VM).
 >
 > Applications that receive consistent traffic, experience regular traffic fluctuations, or meet the parameters for scaling up and down gradually.
